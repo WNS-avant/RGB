@@ -38,7 +38,7 @@ function setupsquares(){
             console.log(clickedColour,pickedColour);
             if(clickedColour === pickedColour)
                 { 
-                    messageDisplay.textContent = "CORRECT !!";
+                    messageDisplay.textContent = "CORRECT!";
                     trueParty(clickedColour);
                     header.style.background = clickedColour;
                     resetButton.textContent = "Play Again?";
